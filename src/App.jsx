@@ -1,35 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import MemberCard from './components/MemberCard';
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <div>
+      <h1>Les membres</h1>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h2>Liste des membres</h2>
+        <div className='cards-container'>
+          <MemberCard 
+            firstName="Inès" 
+            lastName="Dupont" 
+            tech="React" 
+            message="Toujours partante pour un nouveau challenge frontend !" 
+          />
+
+          <MemberCard 
+            firstName="Liam" 
+            lastName="Nguyen" 
+            tech="Laravel" 
+            message="Le back c’est ma passion, mais j’apprivoise React petit à petit." 
+          />
+
+          <MemberCard 
+            firstName="Amina" 
+            lastName="Benali" 
+            tech="Vue.js" 
+            message="Pro du CSS, j’adore soigner les détails visuels." 
+          />
+
+          <MemberCard 
+            firstName="Noé" 
+            lastName="Durand" 
+            tech="Node.js" 
+            message="Le JS côté serveur, c’est mon truc. Je suis ici pour monter en fullstack." 
+          />
+
+          <MemberCard 
+            firstName="Clara" 
+            lastName="Morel" 
+            tech="Python" 
+            message="J’ai un faible pour les API propres et bien documentées." 
+          />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
