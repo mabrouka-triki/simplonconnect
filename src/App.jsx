@@ -17,6 +17,7 @@ function App() {
               name={`${member.firstName} ${member.lastName}`}
               tech={member.tech}
               message={member.message}
+              imageUrl={member.imageUrl}
             />
           ))}
         </div>

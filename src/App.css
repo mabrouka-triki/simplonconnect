@@ -181,6 +181,14 @@ div > div > h2 {
   opacity: 0.3;
   font-family: Georgia, serif;
 }
+.card img{
+  width: 30%; 
+  height: 30%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 5%;
+}
 
 /* Animations */
 @keyframes fadeInUp {
