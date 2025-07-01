@@ -6,8 +6,8 @@ export default function MemberCard({ name, tech, message, imageUrl }) {
     const [inverted, setInverted] = useState(false);
 
     // Si inversé, on échange les couleurs
-    const color = inverted ? 'white' : 'red';
-    const backgroundColor = inverted ? 'red' : 'white';
+    const color = inverted ? '#f8fafc' : ' #dc2626';
+    const backgroundColor = inverted ? ' #dc2626' : '#f8fafc';
 
     return (
         <div className="card"
@@ -19,7 +19,7 @@ export default function MemberCard({ name, tech, message, imageUrl }) {
                 color={color}
                 backgroundColor={backgroundColor} 
             />
-            <p>"{message}"</p>
+            <p className='lastP'>"{message}"</p>
             <img src={imageUrl} alt="Une image" />
 
         </div>

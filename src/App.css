@@ -155,7 +155,7 @@ div > div > h2 {
 } */
 
 /* Message/citation */
-.card p:last-of-type {
+.card .lastP {
   font-style: italic;
   color: var(--text-gray);
   background: var(--light-gray);
@@ -166,7 +166,7 @@ div > div > h2 {
   margin-top: 1.5rem;
 }
 
-.card p:last-of-type::before {
+.card .lastP::before {
   content: '"';
   font-size: 3rem;
   color: var(--primary-red);
