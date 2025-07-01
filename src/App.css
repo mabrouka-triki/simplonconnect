@@ -136,28 +136,23 @@ div > div > h2 {
 }
 
 /* Technologie préférée */
-.card p:first-of-type {
+/* .card p:first-of-type {
   color: var(--text-gray);
   margin-bottom: 1rem;
   font-size: 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-}
+} */
 
-.card p:first-of-type::before {
-  content: '🔧';
-  font-size: 1rem;
-}
-
-.card strong {
+/* .card strong {
   color: var(--primary-red);
   font-weight: 600;
   background: rgba(220, 38, 38, 0.1);
   padding: 0.25rem 0.5rem;
   border-radius: 6px;
   font-size: 0.9rem;
-}
+} */
 
 /* Message/citation */
 .card p:last-of-type {
