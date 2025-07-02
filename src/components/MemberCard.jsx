@@ -15,10 +15,11 @@ export default function MemberCard({ name, tech, message, imageUrl }) {
         >
             <h2>{name}</h2>
             <Badge
-                tech={tech}
                 color={color}
                 backgroundColor={backgroundColor} 
-            />
+            >
+                {tech}
+            </Badge>
             <p className='lastP'>"{message}"</p>
             <img src={imageUrl} alt="Une image" />
 

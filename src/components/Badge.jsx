@@ -1,4 +1,4 @@
-export default function Badge({ tech, color, backgroundColor }) {
+export default function Badge({ children, color, backgroundColor }) {
     return (
         <div>
             <p >
@@ -15,7 +15,7 @@ export default function Badge({ tech, color, backgroundColor }) {
                         borderRadius: '6px',
                         fontSize: '1 rem',
                     }}>
-                    {tech}
+                    {children}
                 </span>
             </p>
         </div>
