@@ -1,5 +1,6 @@
 export const members = [
   {
+    id: 0,
     firstName: "Inès",
     lastName: "Dupont",
     tech: "React",
@@ -8,6 +9,7 @@ export const members = [
       "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
   },
   {
+    id: 1,
     firstName: "Liam",
     lastName: "Nguyen",
     tech: "Laravel",
@@ -16,6 +18,7 @@ export const members = [
       "https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
   },
   {
+    id: 2,
     firstName: "Amina",
     lastName: "Benali",
     tech: "Vue.js",
@@ -24,6 +27,7 @@ export const members = [
       "https://images.pexels.com/photos/8993561/pexels-photo-8993561.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
   },
   {
+    id: 3,
     firstName: "Noé",
     lastName: "Durand",
     tech: "Node.js",
@@ -33,6 +37,7 @@ export const members = [
       "https://images.pexels.com/photos/5792641/pexels-photo-5792641.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
   },
   {
+    id: 4,
     firstName: "Clara",
     lastName: "Morel",
     tech: "Python",
